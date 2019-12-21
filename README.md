@@ -25,5 +25,6 @@ sudo ufw deny IP_no
 
 azure ....
 https://github.com/Nyr/openvpn-install  // ilk burdaki installation'u kuracagım ubuntu sunucuma
+wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04
