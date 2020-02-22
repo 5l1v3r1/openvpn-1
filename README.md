@@ -14,6 +14,9 @@ scp root@231231231:/root/nomekboys.ovpn /root
 çalıştırma :
 openvpn --config nomekboys.ovpn
 
+-- Tshark ile Paketleri Yakala
+-tshark -i wlan0 -w capture-output.pcap
+
 
 güvenlik duvarı komutları:
 sudo ufw status
