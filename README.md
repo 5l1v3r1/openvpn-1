@@ -17,6 +17,9 @@ openvpn --config nomekboys.ovpn
 -- Tshark ile Paketleri Yakala
 -tshark -i wlan0 -w capture-output.pcap
 
+-Tshark ile bir Pcap okuyun
+-tshark -r capture-output.pcap
+
 
 güvenlik duvarı komutları:
 sudo ufw status
